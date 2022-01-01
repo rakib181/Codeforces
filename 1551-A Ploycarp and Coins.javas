@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class PolyCarpAndCoins {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+       long t=sc.nextLong();
+       for (long i=0;i<t;i++){
+        long n=sc.nextLong();
+       long c,a,b;
+       c=n/3;
+       a=c;
+       b=c*2;
+       if(n%3==0){
+           System.out.println(+a+" "+b/2);
+       }else if (n%3==1){
+           System.out.println(+(a+1)+" "+b/2);
+       }else{
+           System.out.println(+a+" "+(b/2+1));
+       }
+    }
+  }
+}
