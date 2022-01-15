@@ -19,7 +19,7 @@ public class ShortSubstrings {
                     System.out.print(s.charAt(i));
                 }
             }
-            System.out.print(s.charAt(s.length() - 1));
+            System.out.println(s.charAt(s.length() - 1));
         }
     }
 }
