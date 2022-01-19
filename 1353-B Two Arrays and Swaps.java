@@ -6,7 +6,7 @@ public class TwoArraysAndSwaps {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         for (int j = 0; j < t; j++) {
-            int n = sc.nextInt(), k = sc.nextInt(), c = 0, m = 0,d=0;
+            int n = sc.nextInt(), k = sc.nextInt(), c = 0, m = 0;
             int[] a = new int[n];
             int[] b = new int[n];
             for (int p = 0; p < n; p++) {
