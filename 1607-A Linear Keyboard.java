@@ -13,6 +13,7 @@ public class LinearKeyboard {
                 for (int i = 0; i < s.length(); i++) {
                     if (s.charAt(i) == s1.charAt(j)) {
                         list.add(i+1);
+                        break;
                     }
                 }
             }
