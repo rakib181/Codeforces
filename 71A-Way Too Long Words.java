@@ -1,3 +1,21 @@
+import java.util.*;
+
+public class WayToLongWord {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		while(t-->0) {
+			StringBuilder sb=new StringBuilder(sc.next());
+			if(sb.length()<=10) {
+				System.out.println(sb);
+			}else {
+			System.out.println((sb.charAt(0))+""+(sb.length()-2)+""+(sb.charAt(sb.length()-1)));
+			}
+		}
+	}
+}
+/*
 import java.util.Scanner;
 
 public class WayToLongWord {
@@ -20,4 +38,4 @@ char c=s.charAt(s.length()-1);
             System.out.println();
         }
     }
-}
+}*/
