@@ -1,4 +1,5 @@
-import java.util.Scanner;
+/*----->Hope Can Set You Free<-----*/
+import java.util.*;
 
 public class ProveHimWrong {
 
@@ -13,16 +14,13 @@ public class ProveHimWrong {
 			}else {
 				System.out.println("YES");
 				arr[0]=1;
+				System.out.print(arr[0]+" ");
 				for(int i=1;i<n;i++) {
 					arr[i]=arr[i-1]*3;
-				}
-				for(int i=0;i<n;i++) {
 					System.out.print(arr[i]+" ");
 				}
 				System.out.println();
 			}
 		}
-
 	}
-
 }
